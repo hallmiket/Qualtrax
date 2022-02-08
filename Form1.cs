@@ -19,6 +19,7 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //do some work
             parseBracketString it = new parseBracketString();
 
             bool a = it.parseTheString("(");
